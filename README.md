@@ -1,2 +1,8 @@
 # paridis
-个人笔记
+
+## git
+
+```dataview
+list 
+from #git
+```
