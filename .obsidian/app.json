@@ -1,1 +1,8 @@
-{}
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
+}
