@@ -14,8 +14,8 @@ load_examples = False
 # False:执行任务前重新加载 plugins
 lazy_load_plugins = False
 [webserver]
-# 邮件中访问连接，设置为访问地址
-base_url = http://54.189.249.136:8080
+# 邮件中访问连接，设置为 airflow 服务器域名
+base_url = http://server.com
 
 [email]
 # 配置邮件内容模板
