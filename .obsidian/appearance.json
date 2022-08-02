@@ -1,1 +1,6 @@
-{}
+{
+  "enabledCssSnippets": [
+    "unwrapCode"
+  ],
+  "cssTheme": "Minimal"
+}

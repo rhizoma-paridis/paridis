@@ -1,4 +1,7 @@
 [
   "dataview",
-  "markdown-prettifier"
+  "markdown-prettifier",
+  "oz-clear-unused-images",
+  "obsidian-style-settings",
+  "obsidian-codemirror-options"
 ]
