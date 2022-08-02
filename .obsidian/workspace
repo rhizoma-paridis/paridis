@@ -130,15 +130,15 @@
   },
   "active": "d195aa020f836db8",
   "lastOpenFiles": [
-    "airflow/fornetkey.md",
-    "airflow/airflow install.md",
     "airflow/airflow config.md",
+    "git/合并 commit.md",
+    "airflow/airflow install.md",
+    "airflow/fornetkey.md",
     "airflow/image.md",
     "airflow/wecom.md",
     "airflow/email.md",
     "airflow/attachments/Pasted image 20220802173834 1.png",
     "airflow/attachments/Pasted image 20220802173834.png",
-    "airflow config^.md",
-    "git/合并 commit.md"
+    "airflow config^.md"
   ]
 }

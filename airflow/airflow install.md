@@ -2,10 +2,14 @@
 
 ## 前置条件
 
-[[airflow config]]
+[airflow config](airflow%20config.md)
+
 [email](email.md)
+
 [wecom](wecom.md)
+
 [image](image.md)
+
 [fornetkey](fornetkey.md)
 
 ## pvc
