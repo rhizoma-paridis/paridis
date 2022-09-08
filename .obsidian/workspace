@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "b4e5ca81e5ec13f8",
+        "id": "3cb4e54afff3ef5c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "obsidian/obsdian 使用.md",
-            "mode": "preview",
+            "file": "tool/Scoop.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/obsdian 使用.md",
+                "file": "tool/Scoop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/obsdian 使用.md",
+                "file": "tool/Scoop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/obsdian 使用.md"
+                "file": "tool/Scoop.md"
               }
             }
           }
@@ -126,19 +126,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 223.5
   },
-  "active": "d9b7329ab98333ed",
+  "active": "3cb4e54afff3ef5c",
   "lastOpenFiles": [
-    "airflow/Untitled.md",
-    "airflow/airflow install.md",
-    "airflow/airflow config.md",
-    "airflow/image.md",
-    "airflow/email.md",
+    "tool/Scoop.md",
+    "README.md",
     "git/合并 commit.md",
-    "airflow/fornetkey.md",
+    "obsidian/obsdian 使用.md",
+    "airflow/Untitled.md",
     "airflow/wecom.md",
-    "airflow/attachments/Pasted image 20220802173834 1.png",
-    "airflow/attachments/Pasted image 20220802173834.png"
+    "airflow/fornetkey.md",
+    "airflow/image.md",
+    "airflow/airflow config.md",
+    "airflow/email.md"
   ]
 }
