@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "3cb4e54afff3ef5c",
+        "id": "a8d8598b13b09831",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tool/Scoop.md",
-            "mode": "source",
+            "file": "code/maven/deploy.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tool/Scoop.md",
+                "file": "code/maven/deploy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tool/Scoop.md",
+                "file": "code/maven/deploy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tool/Scoop.md"
+                "file": "code/maven/deploy.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 223.5
   },
-  "active": "3cb4e54afff3ef5c",
+  "active": "a8d8598b13b09831",
   "lastOpenFiles": [
     "tool/Scoop.md",
+    "code/maven/deploy.md",
+    "obsidian/obsdian 使用.md",
     "README.md",
     "git/合并 commit.md",
-    "obsidian/obsdian 使用.md",
     "airflow/Untitled.md",
     "airflow/wecom.md",
     "airflow/fornetkey.md",
     "airflow/image.md",
-    "airflow/airflow config.md",
-    "airflow/email.md"
+    "airflow/airflow config.md"
   ]
 }
