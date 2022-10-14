@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "code/maven/deploy.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -130,15 +130,15 @@
   },
   "active": "a8d8598b13b09831",
   "lastOpenFiles": [
-    "tool/Scoop.md",
+    "code/maven/使用私服.md",
     "code/maven/deploy.md",
+    "tool/Scoop.md",
     "obsidian/obsdian 使用.md",
     "README.md",
     "git/合并 commit.md",
     "airflow/Untitled.md",
     "airflow/wecom.md",
     "airflow/fornetkey.md",
-    "airflow/image.md",
-    "airflow/airflow config.md"
+    "airflow/image.md"
   ]
 }
