@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "6bb7d07d9dd956ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8bfbf92b6f34b77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e87b9463d33599aa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "41e2fb9bd087e70a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d699eaf8a8ae34b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9b7329ab98333ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "306123f91c315d50",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#git",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aeebd0c7eb13aeb6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231.5
+  },
+  "right": {
+    "id": "f011adcfb4c87b31",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d2821f36f04957f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bda8d8d7887c855",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4a3577cf6d2b26bf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1164d65b23d33bb9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "15f31f6b57e4ffaa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 223.5
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "e87b9463d33599aa",
+  "lastOpenFiles": [
+    "加密/https.md",
+    "Untitled.md",
+    "tool/Scoop.md",
+    "加密/签名.md",
+    "加密/加密算法.md",
+    "airflow/airflow install.md",
+    "2022-10-17.md",
+    "code/maven/deploy.md",
+    "code/maven/使用私服.md",
+    "obsidian/obsdian 使用.md"
+  ]
+}
