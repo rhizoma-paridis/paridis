@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c8bfbf92b6f34b77",
+        "id": "b25f67ceb76c4f6f",
         "type": "tabs",
         "children": [
           {
-            "id": "e87b9463d33599aa",
+            "id": "5dfe73ff55090070",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -128,20 +128,17 @@
     "direction": "horizontal",
     "width": 223.5
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "e87b9463d33599aa",
+  "active": "5dfe73ff55090070",
   "lastOpenFiles": [
+    "code/maven/使用私服.md",
+    "design/UML 类关系.md",
     "加密/https.md",
-    "Untitled.md",
     "tool/Scoop.md",
     "加密/签名.md",
     "加密/加密算法.md",
     "airflow/airflow install.md",
     "2022-10-17.md",
     "code/maven/deploy.md",
-    "code/maven/使用私服.md",
     "obsidian/obsdian 使用.md"
   ]
 }
