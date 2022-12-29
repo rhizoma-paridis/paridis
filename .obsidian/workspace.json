@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b25f67ceb76c4f6f",
+        "id": "d5d920792e30658c",
         "type": "tabs",
         "children": [
           {
-            "id": "5dfe73ff55090070",
+            "id": "179ee11804e248df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/maven/deploy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5b22f3dd78092e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "code/java/Connection is not available.md",
+                "file": "code/java/泛型.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/java/Connection is not available.md",
-                "collapseAll": false,
+                "file": "code/java/泛型.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/java/Connection is not available.md",
+                "file": "code/java/泛型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/java/Connection is not available.md"
+                "file": "code/java/泛型.md"
               }
             }
           }
@@ -147,19 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 233.5
   },
-  "active": "f5b22f3dd78092e3",
+  "active": "179ee11804e248df",
   "lastOpenFiles": [
+    "README.md",
+    "code/java/泛型.md",
+    "code/java/Hikari.md",
     "code/maven/deploy.md",
     "code/maven/使用私服.md",
     "tool/Scoop.md",
     "design/UML 类关系.md",
     "加密/https.md",
     "加密/签名.md",
-    "加密/加密算法.md",
-    "airflow/airflow install.md",
-    "2022-10-17.md",
-    "obsidian/obsdian 使用.md"
+    "加密/加密算法.md"
   ]
 }

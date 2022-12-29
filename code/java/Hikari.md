@@ -1,12 +1,14 @@
 #hikari #spring #java
 
+## Connection is not available
+
 任务执行 sql，每过一段时间后就会报一个错误。
 
 ```text
 HikariPool-1 - Connection is not available, request timed out after 30002ms.
 ```
 
-## 方法一
+### 方法一
 
 1. 启用 `com.zaxxer.hikari` debug 日志。
 
@@ -62,13 +64,14 @@ HikariPool-1 - Connection is not available, request timed out after 30002ms.
 
 2. 观察日志
 
-等程序报错 
+等程序报错
 
 ```text
 HikariPool-1 - Connection is not available, request timed out after 30001ms.
 ```
 
 这时可以看到连接池内的连接数量。
+
 ```text
 HikariPool-1 - Timeout failure stats (total=10, active=10, idle=0, waiting=0)
 ```
@@ -124,7 +127,7 @@ public void update(int postId, String metaValue) throws SQLException {
 }
 ```
 
-## 方法二
+### 方法二
 
 连接池配置中启用 `leak-detection-threshold` 。这个配置是控制在记录消息之前连接可能离开池的时间量，表明可能存在连接泄漏。值为0意味着泄漏检测被禁用。启用泄漏检测的最低可接受值为2000（2秒）。 默认值：0
 
@@ -148,6 +151,6 @@ java.lang.Exception: Apparent connection leak detected
 
 这里就已经看到了出问题的地方，所以直接就修复代码就可以了。
 
-## 其他
+### 其他
 
 网上有很多说是去修改参数的。大多说的都是没头没尾。而且没有思路。
