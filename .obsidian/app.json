@@ -2,7 +2,10 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./attachments",
+  "attachmentFolderPath": "attachments",
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "/.*attachments/"
+  ]
 }

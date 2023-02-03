@@ -3,5 +3,7 @@
   "markdown-prettifier",
   "oz-clear-unused-images",
   "obsidian-style-settings",
-  "obsidian-codemirror-options"
+  "obsidian-codemirror-options",
+  "folder-note-plugin",
+  "note-folder-autorename"
 ]

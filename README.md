@@ -1,8 +1,7 @@
 # paridis
 
-## git
 
 ```dataview
-list 
-from #git
+list from "git"
 ```
+
