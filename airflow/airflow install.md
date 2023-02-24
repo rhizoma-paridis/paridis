@@ -149,14 +149,34 @@ kubectl create secret docker-registry dockercfg \
 
 ```yaml
 
+
 # Default airflow repository -- overrides all the specific images below
-defaultAirflowRepository: harbor.in.x-data.com/camel-docker/airflow
+defaultAirflowRepository: harbor.in.xuwanzi.com/docker/airflow
 
 # Default airflow tag to deploy
-defaultAirflowTag: "2.3.3-python3.9-0.1"
+defaultAirflowTag: "2.3.3-python3.9-0.19"
 
 # Airflow version (Used to make some decisions based on Airflow Version being deployed)
 airflowVersion: "2.3.3"
+
+# Select certain nodes for airflow pods.
+
+affinity: 
+  nodeAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+    - preference:
+        matchExpressions:
+        - key: app
+          operator: In
+          values:
+          - airflow
+      weight: 1
+
+tolerations: 
+- key: app
+  operator: Equal
+  value: airflow
+  effect: "NoSchedule"
 
 # Ingress configuration
 ingress:
@@ -166,7 +186,7 @@ ingress:
     enabled: true
     # The hostname for the web Ingress (Deprecated - renamed to `ingress.web.hosts`)
     hosts: 
-      - name: "airflow.in.x-data.com"
+      - name: "airflow.in.xuwanzi.com"
     # The Ingress Class for the web Ingress (used only with Kubernetes v1.19 and above)
     ingressClassName: "nginx"
 
@@ -175,50 +195,89 @@ executor: "KubernetesExecutor"
 data:
   # Otherwise pass connection values in
   metadataConnection:
-    user: "test"
-    pass: "test"
+    user: "xxxx"
+    pass: "xxxx"
     protocol: "mysql"
-    host: "test.com"
+    host: "xxx.com"
     port: 3306
     db: k8s_airflow
     sslmode: disable
 
 # Fernet key settings
 # Note: fernetKey can only be set during install, not upgrade
-fernetKey: "test="
+fernetKey: "xxxxxxxxxxxxxx="
 
-webserverSecretKey: "test"
+webserverSecretKey: "xxxxxxxxxxxxx"
 
 workers:
   extraVolumes:
-    - name: camel-db-info
+    - name: db-info
       persistentVolumeClaim:
         claimName: airflow-db-info-pvc
-    - name: camel-files
+    - name: files
       persistentVolumeClaim:
-        claimName: airflow-files-pvc
+        claimName: files-pvc
   extraVolumeMounts:
-    - name: camel-db-info
+    - name: db-info
       mountPath: "/opt/airflow/db_info"
-    - name: camel-files
+    - name: files
       mountPath: "/opt/airflow/files"
+  resources: 
+    limits:
+      cpu: 1
+      memory: 500Mi
+    requests:
+      cpu: 200m
+      memory: 300Mi
+# scheduler:
+#   resources: 
+#     limits:
+#       cpu: 2
+#       memory: 6Gi
+#     requests:
+#       cpu: 1
+#       memory: 4Gi
 
 webserver:
   defaultUser:
-    password: camel_data666
+    password: xxxxxx
   extraVolumes:
-    - name: camel-db-info
+    - name: db-info
       persistentVolumeClaim:
-        claimName: airflow-db-info-pvc
-    - name: camel-files
+        claimName: db-info-pvc
+    - name: files
       persistentVolumeClaim:
-        claimName: airflow-files-pvc
+        claimName: files-pvc
   extraVolumeMounts:
-    - name: camel-db-info
+    - name: db-info
       mountPath: "/opt/airflow/db_info"
-    - name: camel-files
+    - name: files
       mountPath: "/opt/airflow/files"
+#   resources: 
+#     limits:
+#       cpu: 300m
+#       memory: 3Gi
+#     requests:
+#       cpu: 100m
+#       memory: 1Gi
 
+# triggerer:
+#   resources: 
+#     limits:
+#       cpu: 300m
+#       memory: 2Gi
+#     requests:
+#       cpu: 100m
+#       memory: 500Mi
+
+# statsd:
+#   resources: 
+#     limits:
+#       cpu: 50m
+#       memory: 200Mi
+#     requests:
+#       cpu: 50m
+#       memory: 100Mi
 # Auth secret for a private registry
 # This is used if pulling airflow images from a private registry
 registry:
@@ -231,6 +290,8 @@ postgresql:
 config:
   core:
     plugins_folder: "/opt/airflow/plugins"
+    parallelism: 150
+    dagbag_import_timeout: 160.0
   email:
     subject_template: "/opt/airflow/email_template/subject_template.j2"
     html_content_template: "/opt/airflow/email_template/content_template.j2"
@@ -238,10 +299,10 @@ config:
     smtp_host: smtp.exmail.qq.com
     smtp_starttls: False
     smtp_ssl: True
-    smtp_user: test@test.com
-    smtp_password: test
+    smtp_user: data_public@xxx.com
+    smtp_password: xxxx
     smtp_port: 465
-    smtp_mail_from: test@test.com
+    smtp_mail_from: data_public@xxx.com
     smtp_timeout: 30
     smtp_retry_limit: 5
   kubernetes:
@@ -251,7 +312,8 @@ config:
     tcp_keep_idle: 120
     tcp_keep_intvl: 30
     tcp_keep_cnt: 6
-
+  webserver:
+    page_size: 50
 
 dags:
   gitSync:
@@ -261,7 +323,7 @@ dags:
     # ssh examples ssh://git@github.com/apache/airflow.git
     # git@github.com:apache/airflow.git
     # https example: https://github.com/apache/airflow.git
-    repo: "https://github.com/Camel-Data/k8s-airflow.git"
+    repo: "https://github.com/xxx-xxx/k8s-airflow.git"
     branch: main
     rev: HEAD
     depth: 1

@@ -120,13 +120,13 @@ sudo scoop install -g <app>
 
 ## 代理设置
 
-Scoop 默认使用的是系统代理，如果你想手动指定代理，可以输入下面的命令。需要注意的是只支持 http 协议。我尝试了并没有用，不知道是什么原因。
+Scoop 默认使用的是系统代理，如果你想手动指定代理，可以输入下面的命令。需要注意的是只支持 http 协议。配置文件位置 `C:\Users\xupeiqi\.config\scoop\config.json`。
 
 ```none
-scoop config proxy localhost:1080
+scoop config proxy 127.0.0.1:7890
 ```
 
-> 设置完可以通过`scoop config proxy`查看。
+> 设置完可以通过`scoop config proxy`查看。但是 scoop 很多东西需要从 github 中下载，所以要对 github 设置代理，参考[github proxy](../git/github/github.md#proxy)
 
 如果你想取消代理，那么输入下面的命令，这将会恢复使用系统代理。
 
@@ -195,7 +195,9 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
 
 ## 问题
 
-scoop 本身的软件源大多在 github 上。所以有时候下载会有问题。我尝试过给 git 与 scoop 都设置代理，但是并没有用，反到是后来把代理全删了。下载正常了。可能跟当时的网络环境有问题。如果出现下载问题，还是可以尝试设置代理，或是把代理设置成系统代理。
+Couldn't find manifest for '7zip'? 
+
+也会是缺少其他软件，只是因为 scoop 找不到相关软件，所以添加该软件所在的 bucket 。然后再执行安装。
 
 ## 常用软件
 

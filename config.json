@@ -1,0 +1,6 @@
+{
+    "last_update":  "2023-01-13T11:08:31.7786790+08:00",
+    "proxy":  "127.0.0.1:7890",
+    "scoop_branch":  "master",
+    "scoop_repo":  "https://github.com/ScoopInstaller/Scoop"
+}

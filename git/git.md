@@ -1,6 +1,6 @@
 ## 愿景
 
-#git/use
+#git
 
 git 在提交的时候不经意会提交很多无用的 commit。为了让 commit 更整洁。所以要对无用的 commit 合并。
 

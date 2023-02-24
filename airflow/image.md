@@ -7,6 +7,20 @@ FROM apache/airflow:2.3.3-python3.9
 
 MAINTAINER paridis
 
+USER root
+
+ARG DEPS="\
+     wget \
+     vim"
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ${DEPS} \
+    && apt-get autoremove -yqq --purge \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+USER airflow
+
 COPY ./camel_airflow_plugins/ /opt/airflow/plugins/
 
 COPY ./template/ /opt/airflow/email_template/
