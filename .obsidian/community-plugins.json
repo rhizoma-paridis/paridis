@@ -5,5 +5,6 @@
   "obsidian-style-settings",
   "obsidian-codemirror-options",
   "folder-note-plugin",
-  "note-folder-autorename"
+  "note-folder-autorename",
+  "obsidian-quiet-outline"
 ]
