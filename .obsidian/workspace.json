@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ea7e4115e66d5626",
+        "id": "c87b8435bef023c8",
         "type": "tabs",
         "children": [
           {
-            "id": "bb2acf36e10c2ab0",
+            "id": "b332fd8ac66627cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hera/Hera部署文档/Hera部署文档.md",
+                "file": "git/git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hera/Hera部署文档/Hera部署文档.md",
+                "file": "git/git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hera/Hera部署文档/Hera部署文档.md",
+                "file": "git/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hera/Hera部署文档/Hera部署文档.md"
+                "file": "git/git.md"
               }
             }
           },
@@ -154,8 +154,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "15f31f6b57e4ffaa",
+  "active": "d9b7329ab98333ed",
   "lastOpenFiles": [
+    "git/github/github.md",
+    "git/gitlab/gitlab.md",
+    "git/git.md",
+    "linux/ssh/ssh.md",
+    "linux/ssh",
+    "linux/Bracketed-paste/Bracketed-paste.md",
+    "hera/Hera部署文档/Hera部署文档.md",
+    "linux/Bracketed-paste",
+    "linux",
     "hera/hera.md",
     "hera/Hera部署文档/attachments/image_VI6yDabfPI.jpeg",
     "hera/Hera部署文档/attachments/image_9_pybu0qnjt4.jpeg",
@@ -164,42 +173,6 @@
     "hera/Hera部署文档/attachments/image_7_UayfNfgz0z.png",
     "hera/Hera部署文档/attachments/image_7_DVrpwBV6tf.jpeg",
     "hera/Hera部署文档/attachments/image_73_-8GYVEDrSn.png",
-    "hera/Hera部署文档/attachments/image_6__c5OIHmX_-.png",
-    "hera/Hera部署文档/attachments/image_6_vUx_Eul5SH.jpeg",
-    "hera/Hera部署文档/attachments/image_66_2kbPwU0esi.png",
-    "hera/Hera部署文档/attachments",
-    "hera/Hera部署文档/Hera部署文档.md",
-    "hera/Hera部署文档",
-    "k8s/k8s.md",
-    "hera",
-    "k8s/k8s 权限.md",
-    "k8s/helm/helm.md",
-    "tool/tool.md",
-    "2023-03-23.md",
-    "tool/vim/vim.md",
-    "tool/vim",
-    "code/code.md",
-    "code/maven/使用私服.md",
-    "code/java/泛型.md",
-    "code/java/spring-source/spring-source.md",
-    "code/java/java.md",
-    "code/maven/deploy.md",
-    "code/maven/maven.md",
-    "code/java/AOP/AOP.md",
-    "code/java/spring-source/attachments/XmlBeanDefinitionReader.java",
-    "code/java/spring-source/attachments",
-    "code/java/spring-source",
-    "git/gitlab/gitlab runner.md",
-    "git/gitlab/gitlab server.md",
-    "git/gitlab/gitlab ci cd.md",
-    "git/git.md",
-    "docker/docker.md",
-    "docker/docker_compose/mysql.md",
-    "docker/docker_compose/mongo.md",
-    "docker/docker_compose/docker_compose.md",
-    "docker/docker_compose",
-    "airflow/airflow.md",
-    "code/java/AOP/attachments",
-    "code/java/AOP"
+    "hera/Hera部署文档/attachments/image_6__c5OIHmX_-.png"
   ]
 }

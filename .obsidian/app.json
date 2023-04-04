@@ -5,5 +5,6 @@
   "attachmentFolderPath": "./attachments",
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "userIgnoreFilters": null
+  "userIgnoreFilters": null,
+  "defaultViewMode": "preview"
 }

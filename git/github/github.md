@@ -1,5 +1,17 @@
 #git #github
 
+## user
+
+```Bash
+# 查看所有的配置以及它们所在的文件
+git config --list --show-origin
+# 查看配置
+git config --list
+# 配置用户名邮箱
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com 
+```
+
 ## proxy
 
 全局设置
@@ -24,7 +36,7 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:7890
 git config --global http.https://github.com.proxy http://127.0.0.1:7890
 ```
 
-**取消代理**  
+**取消代理**
 
 当你不需要使用代理时，可以取消之前设置的代理。
 
