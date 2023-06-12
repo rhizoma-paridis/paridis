@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c87b8435bef023c8",
+        "id": "50f805a4f3bb2fc0",
         "type": "tabs",
         "children": [
           {
-            "id": "b332fd8ac66627cb",
+            "id": "3e09b9fbb6c38e0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git.md",
+                "file": "obsidian/obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,12 +64,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "b0251929d31124fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 278.5
   },
   "right": {
     "id": "f011adcfb4c87b31",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git.md",
+                "file": "obsidian/obsidian.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git.md",
+                "file": "obsidian/obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git.md"
+                "file": "obsidian/obsidian.md"
               }
             }
           },
@@ -134,6 +142,14 @@
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "25ebdc15dcf1d87d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -146,26 +162,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d9b7329ab98333ed",
+  "active": "3e09b9fbb6c38e0a",
   "lastOpenFiles": [
-    "git/github/github.md",
-    "git/gitlab/gitlab.md",
-    "git/git.md",
-    "linux/ssh/ssh.md",
-    "linux/ssh",
-    "linux/Bracketed-paste/Bracketed-paste.md",
+    "加密/加密.md",
+    "airflow/airflow.md",
+    "obsidian/obsidian.md",
+    "tool/tool.md",
+    "airflow/wecom.md",
+    "airflow/image.md",
+    "airflow/fornetkey.md",
+    "airflow/email.md",
+    "airflow/airflow install.md",
+    "k8s/k8s 权限/k8s 权限.md",
+    "k8s/k8s 常用应用/k8s 常用应用.md",
+    "k8s/k8s.md",
+    "hera/hera.md",
     "hera/Hera部署文档/Hera部署文档.md",
+    "linux/shell/shell keybind/shell keybind.md",
+    "linux/ssh/ssh.md",
+    "linux/shell/shell.md",
+    "linux/shell/shell keybind",
+    "linux/shell",
+    "linux/Bracketed-paste/Bracketed-paste.md",
+    "k8s/k8s 常用应用/dashboard/dashboard.md",
+    "k8s/k8s 常用应用/metrics-server/metrics-server.md",
+    "k8s/k8s 常用应用/metrics-server",
+    "k8s/k8s 常用应用/dashboard",
+    "k8s/k8s 常用应用/未命名.md",
+    "k8s/k8s 常用应用",
+    "design/design.md",
+    "k8s/k8s 权限",
+    "k8s/helm/helm.md",
+    "git/git.md",
+    "docker/docker.md",
+    "git/gitlab/gitlab.md",
+    "linux/ssh",
     "linux/Bracketed-paste",
     "linux",
-    "hera/hera.md",
     "hera/Hera部署文档/attachments/image_VI6yDabfPI.jpeg",
     "hera/Hera部署文档/attachments/image_9_pybu0qnjt4.jpeg",
     "hera/Hera部署文档/attachments/image_8_xf1FTr2Qkt.png",
