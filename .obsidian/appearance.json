@@ -3,5 +3,6 @@
     "unwrapCode"
   ],
   "cssTheme": "Obsidian Nord",
-  "accentColor": ""
+  "accentColor": "",
+  "baseFontSize": 18
 }

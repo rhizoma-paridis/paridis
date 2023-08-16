@@ -25,7 +25,7 @@
 
 #### 加密密码
 
-加密密码有点复杂，需要先设定个 password A。A 是用来生成加密密钥的。用 A 生成的密钥来加密实际的密码。所以一共会有两个密码。详细说明可以参考[官方文档](https://maven.apache.org/guides/mini/guide-encryption.html)。
+加密密码有点复杂，需要先设定个 password A。A 用来生成加密密钥的，所以可以随便生成一个，不需要记忆。用 A 生成的密钥来加密实际的密码。详细说明可以参考[官方文档](https://maven.apache.org/guides/mini/guide-encryption.html)。
 
 ```shell
 mvn --encrypt-master-password <password>
