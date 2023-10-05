@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "15f7cf2197070d09",
+        "id": "ed72db805e98e558",
         "type": "tabs",
         "children": [
           {
-            "id": "f9e175d42239ccfa",
+            "id": "dda7516d28a20066",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -69,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,14 +131,6 @@
             }
           },
           {
-            "id": "ec75933e214d3321",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
             "id": "25ebdc15dcf1d87d",
             "type": "leaf",
             "state": {
@@ -170,21 +163,40 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9b7329ab98333ed",
+  "active": "dda7516d28a20066",
   "lastOpenFiles": [
+    "tool/rime/rime.md",
+    "private/private.md",
+    "code/code.md",
+    "code/java/java.md",
+    "code/java/springboot/springboot.md",
+    "code/java/springboot/package/package.md",
+    "code/java/springboot/Using Spring Boot without the parent POM/Using Spring Boot without the parent POM.md",
+    "code/java/springboot/package",
+    "code/java/springboot/Using Spring Boot without the parent POM",
+    "code/java/cola/cola.md",
+    "design/design.md",
+    "git/git.md",
+    "README.md",
+    "code/maven/maven.md",
+    "code/java/cola",
+    "code/java/泛型.md",
+    "code/java/Hikari.md",
+    "code/java/validate/validate.md",
+    "airflow/airflow.md",
+    "加密/加密.md",
     "private/丸子的名字/丸子的名字.md",
     "private/丸子的名字/attachments/Pasted image 20230921165114.png",
     "private/丸子的名字/attachments/Pasted image 20230921165055.png",
     "private/丸子的名字/attachments/Pasted image 20230921165050.png",
     "private/丸子的名字/attachments",
-    "private/private.md",
     "private/丸子的名字",
     "linux/ssh/ssh.md",
     "private",
-    "airflow/airflow.md",
     "airflow/FAQ/FAQ.md",
     "airflow/FAQ",
     "airflow/单机/单机.md",
@@ -193,30 +205,13 @@
     "airflow/fornetkey.md",
     "airflow/email.md",
     "airflow/airflow install.md",
-    "airflow/airflow config.md",
     "airflow/单机",
-    "tool/tool.md",
-    "tool/rime/rime.md",
     "tool/rime/attachments/Pasted image 20230921163827.png",
     "tool/rime/attachments/Pasted image 20230921163658.png",
     "tool/rime/attachments/Pasted image 20230921163640.png",
     "tool/rime/attachments",
     "tool/rime",
-    "tool/Scoop.md",
-    "tool/vim/vim.md",
-    "k8s/k8s.md",
-    "加密/签名.md",
     "加密/attachments/Pasted image 20230921163240.png",
-    "k8s/k8s 权限/k8s 权限.md",
-    "加密/https.md",
-    "git/gitlab/gitlab ci cd.md",
-    "k8s/k8s 常用应用/dashboard/dashboard.md",
-    "k8s/k8s 常用应用/k8s 常用应用.md",
-    "k8s/k8s 常用应用/metrics-server/metrics-server.md",
-    "k8s/k8s 常用应用/ingress/ingress.md",
-    "k8s/k8s 常用应用/ingress",
-    "docker/install",
-    "k8s/concept/dockerContext",
     "hera/Hera部署文档/attachments/image_VI6yDabfPI.jpeg",
     "hera/Hera部署文档/attachments/image_9_pybu0qnjt4.jpeg",
     "hera/Hera部署文档/attachments/image_8_xf1FTr2Qkt.png"

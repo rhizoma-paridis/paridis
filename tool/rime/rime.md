@@ -108,6 +108,6 @@ patch:
 
 ## 参考文档
 
-https://github.com/rime/home/wiki/CustomizationGuide
+<https://github.com/rime/home/wiki/CustomizationGuide>
 
-https://github.com/rime/home/wiki/RimeWithSchemata
+<https://github.com/rime/home/wiki/RimeWithSchemata>

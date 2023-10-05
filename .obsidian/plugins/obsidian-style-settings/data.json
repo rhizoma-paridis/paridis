@@ -1,3 +1,5 @@
 {
-  "CodeMirror Options@@cm-wrap-lines": "pre"
+  "CodeMirror Options@@cm-wrap-lines": "pre",
+  "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": true,
+  "blue-topaz-theme@@font-family-vault": "'FiraCode Nerd Font Mono Retina', 'Segoe UI Emoji'"
 }
