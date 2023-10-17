@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ed72db805e98e558",
+        "id": "90544bffe4d68b88",
         "type": "tabs",
         "children": [
           {
-            "id": "dda7516d28a20066",
+            "id": "34ee2de2828eaea0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "docker build",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,8 +166,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dda7516d28a20066",
+  "active": "34ee2de2828eaea0",
   "lastOpenFiles": [
+    "docker/docker.md",
+    "docker/concept/concept.md",
+    "docker/docker_compose/docker_compose.md",
+    "docker/concept/imageTag/imageTag.md",
+    "docker/concept/dockerContext/dockerContext.md",
+    "docker/docker prune/docker prune.md",
+    "docker/常用命令/常用命令.md",
+    "docker/install/install.md",
+    "docker/常用命令",
     "tool/rime/rime.md",
     "private/private.md",
     "code/code.md",
@@ -195,22 +203,13 @@
     "private/丸子的名字/attachments/Pasted image 20230921165050.png",
     "private/丸子的名字/attachments",
     "private/丸子的名字",
-    "linux/ssh/ssh.md",
     "private",
-    "airflow/FAQ/FAQ.md",
     "airflow/FAQ",
-    "airflow/单机/单机.md",
-    "airflow/wecom.md",
-    "airflow/image.md",
-    "airflow/fornetkey.md",
-    "airflow/email.md",
-    "airflow/airflow install.md",
     "airflow/单机",
     "tool/rime/attachments/Pasted image 20230921163827.png",
     "tool/rime/attachments/Pasted image 20230921163658.png",
     "tool/rime/attachments/Pasted image 20230921163640.png",
     "tool/rime/attachments",
-    "tool/rime",
     "加密/attachments/Pasted image 20230921163240.png",
     "hera/Hera部署文档/attachments/image_VI6yDabfPI.jpeg",
     "hera/Hera部署文档/attachments/image_9_pybu0qnjt4.jpeg",
