@@ -1,4 +1,21 @@
-## 愿景
+# 基本操作
+
+## 配置
+
+查看所有配置
+
+```shell
+git config --list --show-origin
+```
+
+配置用户信息
+
+```shell
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+
+## 清理无用 commit
 
 #git
 

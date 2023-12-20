@@ -126,7 +126,7 @@ Scoop 默认使用的是系统代理，如果你想手动指定代理，可以�
 scoop config proxy 127.0.0.1:7890
 ```
 
-> 设置完可以通过`scoop config proxy`查看。但是 scoop 很多东西需要从 github 中下载，所以要对 github 设置代理，参考[github proxy](../git/github/github.md#proxy)
+> 设置完可以通过`scoop config proxy`查看。但是 scoop 很多东西需要从 github 中下载，所以要对 github 设置代理，参考[github proxy](../../git/github/github.md#proxy)
 
 如果你想取消代理，那么输入下面的命令，这将会恢复使用系统代理。
 

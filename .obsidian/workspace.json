@@ -11,8 +11,12 @@
             "id": "34ee2de2828eaea0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docker/install/install.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker build",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docker/install/install.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docker/install/install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docker/install/install.md"
+              }
             }
           },
           {
@@ -168,16 +176,25 @@
   },
   "active": "34ee2de2828eaea0",
   "lastOpenFiles": [
-    "docker/docker.md",
-    "docker/concept/concept.md",
-    "docker/docker_compose/docker_compose.md",
-    "docker/concept/imageTag/imageTag.md",
-    "docker/concept/dockerContext/dockerContext.md",
     "docker/docker prune/docker prune.md",
-    "docker/常用命令/常用命令.md",
-    "docker/install/install.md",
-    "docker/常用命令",
+    "docker/docker.md",
     "tool/rime/rime.md",
+    "tool/Scoop/Scoop.md",
+    "code/java/泛型.md",
+    "git/git.md",
+    "git/github/github.md",
+    "docker/常用命令/常用命令.md",
+    "docker/docker_compose/docker_compose.md",
+    "docker/docker_compose/mysql.md",
+    "docker/install/install.md",
+    "docker/concept/concept.md",
+    "docker/concept/dockerContext/dockerContext.md",
+    "tool/Scoop",
+    "tool/vim/vim.md",
+    "tool/tool.md",
+    "k8s/k8s.md",
+    "docker/concept/imageTag/imageTag.md",
+    "docker/常用命令",
     "private/private.md",
     "code/code.md",
     "code/java/java.md",
@@ -188,16 +205,8 @@
     "code/java/springboot/Using Spring Boot without the parent POM",
     "code/java/cola/cola.md",
     "design/design.md",
-    "git/git.md",
     "README.md",
-    "code/maven/maven.md",
     "code/java/cola",
-    "code/java/泛型.md",
-    "code/java/Hikari.md",
-    "code/java/validate/validate.md",
-    "airflow/airflow.md",
-    "加密/加密.md",
-    "private/丸子的名字/丸子的名字.md",
     "private/丸子的名字/attachments/Pasted image 20230921165114.png",
     "private/丸子的名字/attachments/Pasted image 20230921165055.png",
     "private/丸子的名字/attachments/Pasted image 20230921165050.png",
@@ -209,7 +218,6 @@
     "tool/rime/attachments/Pasted image 20230921163827.png",
     "tool/rime/attachments/Pasted image 20230921163658.png",
     "tool/rime/attachments/Pasted image 20230921163640.png",
-    "tool/rime/attachments",
     "加密/attachments/Pasted image 20230921163240.png",
     "hera/Hera部署文档/attachments/image_VI6yDabfPI.jpeg",
     "hera/Hera部署文档/attachments/image_9_pybu0qnjt4.jpeg",

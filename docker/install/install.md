@@ -76,7 +76,7 @@ $ sudo mkdir -p /etc/docker
 # 配置加速地址
 $ sudo tee /etc/docker/daemon.json <<-'EOF'
 {
-   "registry-mirrors": ["https://qlo99bwq.mirror.aliyuncs.com"]
+   "registry-mirrors": ["https://wlo78bqa.mirror.aliyuncs.com"]
 }
 EOF
 # 我自己的阿里云镜像库
