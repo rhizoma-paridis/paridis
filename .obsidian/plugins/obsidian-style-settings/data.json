@@ -1,5 +1,7 @@
 {
   "CodeMirror Options@@cm-wrap-lines": "pre",
   "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": true,
-  "blue-topaz-theme@@font-family-vault": "'FiraCode Nerd Font Mono Retina', 'Segoe UI Emoji'"
+  "blue-topaz-theme@@font-family-vault": "'FiraCode Nerd Font Mono Retina', 'Segoe UI Emoji'",
+  "maple-editor@@code-mac-style-header": true,
+  "maple-editor@@code-preview-bg": false
 }

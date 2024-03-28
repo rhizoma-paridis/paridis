@@ -6,5 +6,11 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "userIgnoreFilters": null,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

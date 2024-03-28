@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "90544bffe4d68b88",
+        "id": "0591a70cc5d481f2",
         "type": "tabs",
         "children": [
           {
-            "id": "34ee2de2828eaea0",
+            "id": "50fe90fdd10a9316",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/install/install.md",
-                "mode": "source",
+                "file": "tool/vim/vim.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/install/install.md",
+                "file": "tool/vim/vim.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/install/install.md",
+                "file": "tool/vim/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docker/install/install.md"
+                "file": "tool/vim/vim.md"
               }
             }
           },
@@ -151,7 +151,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -174,38 +176,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "34ee2de2828eaea0",
+  "active": "50fe90fdd10a9316",
   "lastOpenFiles": [
-    "docker/docker prune/docker prune.md",
-    "docker/docker.md",
     "tool/rime/rime.md",
+    "tool/tool.md",
+    "airflow/airflow.md",
+    "code/code.md",
+    "k8s/k8s.md",
+    "airflow/airflow install.md",
+    "k8s/helm/helm.md",
+    "airflow/wecom.md",
+    "airflow/image.md",
+    "airflow/email.md",
+    "airflow/airflow config.md",
+    "linux/user/user.md",
+    "design/design.md",
+    "airflow/单机/单机.md",
+    "linux/user",
+    "Untitled",
+    "code/java/springboot/Using Spring Boot without the parent POM/Using Spring Boot without the parent POM.md",
     "tool/Scoop/Scoop.md",
+    "airflow/fornetkey.md",
+    "docker/docker.md",
+    "docker/install/install.md",
+    "docker/docker prune/docker prune.md",
     "code/java/泛型.md",
     "git/git.md",
     "git/github/github.md",
     "docker/常用命令/常用命令.md",
     "docker/docker_compose/docker_compose.md",
     "docker/docker_compose/mysql.md",
-    "docker/install/install.md",
-    "docker/concept/concept.md",
-    "docker/concept/dockerContext/dockerContext.md",
     "tool/Scoop",
-    "tool/vim/vim.md",
-    "tool/tool.md",
-    "k8s/k8s.md",
-    "docker/concept/imageTag/imageTag.md",
     "docker/常用命令",
-    "private/private.md",
-    "code/code.md",
-    "code/java/java.md",
-    "code/java/springboot/springboot.md",
-    "code/java/springboot/package/package.md",
-    "code/java/springboot/Using Spring Boot without the parent POM/Using Spring Boot without the parent POM.md",
     "code/java/springboot/package",
     "code/java/springboot/Using Spring Boot without the parent POM",
-    "code/java/cola/cola.md",
-    "design/design.md",
-    "README.md",
     "code/java/cola",
     "private/丸子的名字/attachments/Pasted image 20230921165114.png",
     "private/丸子的名字/attachments/Pasted image 20230921165055.png",
@@ -213,8 +217,6 @@
     "private/丸子的名字/attachments",
     "private/丸子的名字",
     "private",
-    "airflow/FAQ",
-    "airflow/单机",
     "tool/rime/attachments/Pasted image 20230921163827.png",
     "tool/rime/attachments/Pasted image 20230921163658.png",
     "tool/rime/attachments/Pasted image 20230921163640.png",

@@ -106,3 +106,7 @@
     // ...
 </dependencyManagement> 
 ```
+
+## 参考文档
+
+[Spring Boot Maven Plugin Documentation](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#using.import)
