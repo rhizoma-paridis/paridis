@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/vim/vim.md",
-                "mode": "preview",
+                "file": "vim/vim.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tool/vim/vim.md",
+                "file": "vim/vim.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tool/vim/vim.md",
+                "file": "vim/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tool/vim/vim.md"
+                "file": "vim/vim.md"
               }
             }
           },
@@ -178,11 +178,27 @@
   },
   "active": "50fe90fdd10a9316",
   "lastOpenFiles": [
-    "tool/rime/rime.md",
-    "tool/tool.md",
+    "git/git.md",
+    "vim/vim.md",
+    "vim",
+    "git/github/github.md",
+    "airflow/fornetkey.md",
     "airflow/airflow.md",
-    "code/code.md",
+    "加密/加密.md",
+    "docker/docker.md",
+    "docker/docker_compose/mysql.md",
+    "linux/Bracketed-paste/Bracketed-paste.md",
+    "mysql/mysql.md",
+    "tool/tool.md",
+    "tool/rime/rime.md",
+    "tool/vim/vim.md",
+    "README.md",
+    "mysql",
+    "private/private.md",
+    "docker/docker_compose/docker_compose.md",
+    "linux/ssh/ssh.md",
     "k8s/k8s.md",
+    "code/code.md",
     "airflow/airflow install.md",
     "k8s/helm/helm.md",
     "airflow/wecom.md",
@@ -190,22 +206,7 @@
     "airflow/email.md",
     "airflow/airflow config.md",
     "linux/user/user.md",
-    "design/design.md",
-    "airflow/单机/单机.md",
     "linux/user",
-    "Untitled",
-    "code/java/springboot/Using Spring Boot without the parent POM/Using Spring Boot without the parent POM.md",
-    "tool/Scoop/Scoop.md",
-    "airflow/fornetkey.md",
-    "docker/docker.md",
-    "docker/install/install.md",
-    "docker/docker prune/docker prune.md",
-    "code/java/泛型.md",
-    "git/git.md",
-    "git/github/github.md",
-    "docker/常用命令/常用命令.md",
-    "docker/docker_compose/docker_compose.md",
-    "docker/docker_compose/mysql.md",
     "tool/Scoop",
     "docker/常用命令",
     "code/java/springboot/package",
@@ -216,7 +217,6 @@
     "private/丸子的名字/attachments/Pasted image 20230921165050.png",
     "private/丸子的名字/attachments",
     "private/丸子的名字",
-    "private",
     "tool/rime/attachments/Pasted image 20230921163827.png",
     "tool/rime/attachments/Pasted image 20230921163658.png",
     "tool/rime/attachments/Pasted image 20230921163640.png",

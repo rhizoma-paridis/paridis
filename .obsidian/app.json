@@ -6,11 +6,12 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "userIgnoreFilters": null,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "pdfExportSettings": {
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "spellcheck": false
 }
