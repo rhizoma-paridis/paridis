@@ -79,7 +79,12 @@ patch:
   # 打开软件时切换到英文，注意程序名用全小写
   "app_options/windowsterminal.exe":
     ascii_mode: true
-
+  "app_options/code.exe":
+    ascii_mode: true
+  "app_options/idea64.exe":
+    ascii_mode: true
+  "app_options/neovide.exe":
+    ascii_mode: true
 ```
 
 ## 配置规则
