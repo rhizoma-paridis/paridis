@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "14d40442ba884981",
+        "id": "00ca049a3204997d",
         "type": "tabs",
         "children": [
           {
-            "id": "e9ff2930eb18315b",
+            "id": "21ac2be0c3dd7622",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim/vim.md",
+                "file": "private/private.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acaaf2cd82247a0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/obsidian.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim/vim.md",
+                "file": "obsidian/obsidian.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vim/vim.md",
+                "file": "obsidian/obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim/vim.md"
+                "file": "obsidian/obsidian.md"
               }
             }
           },
@@ -162,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,18 +186,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e9ff2930eb18315b",
+  "active": "acaaf2cd82247a0e",
   "lastOpenFiles": [
     "vim/vim.md",
+    "README.md",
+    "private/private.md",
+    "private/Untitled.md",
+    "private/丸子的名字/丸子的名字.md",
+    "加密/加密.md",
     "tool/tool.md",
     "tool/vim/vim.md",
     "tool/rime/rime.md",
+    "tool/rime/Tiger schema/Tiger schema.md",
+    "tool/rime/Tiger schema",
     "tool/idea/idea.md",
-    "private/private.md",
     "tool/idea/attachments/Pasted image 20240617105442.png",
     "tool/idea/attachments/Pasted image 20240617104901.png",
     "tool/idea/attachments",
@@ -193,8 +213,6 @@
     "mysql/mysql.md",
     "code/code.md",
     "git/gitlab/gitlab ci cd.md",
-    "README.md",
-    "private/丸子的名字/丸子的名字.md",
     "airflow/airflow.md",
     "airflow/email.md",
     "airflow/airflow install.md",
@@ -203,18 +221,15 @@
     "git/git.md",
     "vim",
     "git/github/github.md",
-    "加密/加密.md",
     "docker/docker.md",
     "docker/docker_compose/mysql.md",
     "linux/Bracketed-paste/Bracketed-paste.md",
     "mysql",
-    "docker/docker_compose/docker_compose.md",
     "linux/user",
     "tool/Scoop",
     "docker/常用命令",
     "code/java/springboot/package",
     "code/java/springboot/Using Spring Boot without the parent POM",
-    "code/java/cola",
     "private/丸子的名字/attachments/Pasted image 20230921165114.png",
     "private/丸子的名字/attachments/Pasted image 20230921165055.png",
     "private/丸子的名字/attachments/Pasted image 20230921165050.png",
