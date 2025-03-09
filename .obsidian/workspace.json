@@ -13,26 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/private.md",
+                "file": "git/git.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "acaaf2cd82247a0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/obsidian.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "git"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +59,9 @@
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -83,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/obsidian.md",
+                "file": "linux/user/user.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for user"
             }
           },
           {
@@ -123,10 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/obsidian.md",
+                "file": "linux/user/user.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from user"
             }
           },
           {
@@ -137,7 +139,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -146,8 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/obsidian.md"
-              }
+                "file": "git/git.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of git"
             }
           },
           {
@@ -155,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -167,7 +178,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -175,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,50 +198,50 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "acaaf2cd82247a0e",
+  "active": "21ac2be0c3dd7622",
   "lastOpenFiles": [
+    "git/github/github.md",
+    "git/gitlab/gitlab server.md",
+    "git/git.md",
     "vim/vim.md",
-    "README.md",
+    "linux/user/user.md",
     "private/private.md",
+    "code/code.md",
+    "docker/docker.md",
+    "design/design.md",
+    "linux/ssh/ssh.md",
+    "git/gitlab/gitlab runner.md",
+    "git/gitlab/gitlab ci cd.md",
+    "git/gitlab/gitlab.md",
+    "tool/tool.md",
+    "docker/docker_compose/docker_compose.md",
+    "linux/shell/shell keybind/shell keybind.md",
+    "linux/shell/shell.md",
+    "linux/iptables/iptables.md",
+    "linux/iptables",
+    "obsidian/obsidian.md",
+    "README.md",
     "private/Untitled.md",
     "private/丸子的名字/丸子的名字.md",
     "加密/加密.md",
-    "tool/tool.md",
     "tool/vim/vim.md",
     "tool/rime/rime.md",
     "tool/rime/Tiger schema/Tiger schema.md",
     "tool/rime/Tiger schema",
-    "tool/idea/idea.md",
     "tool/idea/attachments/Pasted image 20240617105442.png",
     "tool/idea/attachments/Pasted image 20240617104901.png",
     "tool/idea/attachments",
     "tool/idea",
-    "tool/Untitled.md",
-    "obsidian/obsidian.md",
-    "mysql/mysql.md",
-    "code/code.md",
-    "git/gitlab/gitlab ci cd.md",
-    "airflow/airflow.md",
-    "airflow/email.md",
-    "airflow/airflow install.md",
-    "airflow/airflow config.md",
-    "airflow/fornetkey.md",
-    "git/git.md",
     "vim",
-    "git/github/github.md",
-    "docker/docker.md",
-    "docker/docker_compose/mysql.md",
-    "linux/Bracketed-paste/Bracketed-paste.md",
     "mysql",
     "linux/user",
     "tool/Scoop",
     "docker/常用命令",
     "code/java/springboot/package",
-    "code/java/springboot/Using Spring Boot without the parent POM",
     "private/丸子的名字/attachments/Pasted image 20230921165114.png",
     "private/丸子的名字/attachments/Pasted image 20230921165055.png",
     "private/丸子的名字/attachments/Pasted image 20230921165050.png",
