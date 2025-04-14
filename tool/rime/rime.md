@@ -66,11 +66,8 @@ patch:
 ### 发行版设置
 
 默认配置：`weasel.yaml`
-
 用户配置：`weasel.custom.yaml`
-
 设置中主要有 style 等。
-
 我的配置：
 
 ```YAML
@@ -112,9 +109,11 @@ patch:
 ```
 
 # rime 大活
+
 [rime schema 原理](https://github.com/rime/home/wiki/RimeWithSchemata)
 [rime schema 配置文档](https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md)
 [Tiger schema](Tiger%20schema/Tiger%20schema.md)
+
 ## 参考文档
 
 <https://github.com/rime/home/wiki/CustomizationGuide>

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "00ca049a3204997d",
+        "id": "fac1dfcc4fbf38c4",
         "type": "tabs",
         "children": [
           {
-            "id": "21ac2be0c3dd7622",
+            "id": "be0eeaba0041a4a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git.md",
+                "file": "code/java/effective_java/effective_java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "effective_java"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -71,7 +71,7 @@
               "type": "starred",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "插件不再活动"
             }
           },
           {
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git.md",
+                "file": "code/java/effective_java/effective_java.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "effective_java 的大纲"
             }
           },
           {
@@ -182,66 +182,77 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "9789efa0ae77b168",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 399.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "21ac2be0c3dd7622",
+  "active": "be0eeaba0041a4a2",
   "lastOpenFiles": [
-    "git/github/github.md",
-    "git/gitlab/gitlab server.md",
+    "README.md",
+    "code/java/effective_java/2. Java构建器模式优化多参数构造/2. Java构建器模式优化多参数构造.md",
+    "code/java/effective_java/effective_java.md",
+    "code/java/effective_java/2. Java构建器模式优化多参数构造",
+    "code/java/effective_java/1. 静态工厂方法/1. 静态工厂方法.md",
+    "code/java/effective_java/1. 静态工厂方法",
+    "code/java/java.md",
+    "code/java/effective_java",
+    "未命名",
+    "code/code.md",
+    "obsidian/obsidian.md",
     "git/git.md",
+    "docker/docker.md",
+    "docker/常用命令/常用命令.md",
+    "docker/docker_compose/docker_compose.md",
+    "加密/加密.md",
     "vim/vim.md",
     "linux/user/user.md",
-    "private/private.md",
-    "code/code.md",
-    "docker/docker.md",
-    "design/design.md",
-    "linux/ssh/ssh.md",
-    "git/gitlab/gitlab runner.md",
-    "git/gitlab/gitlab ci cd.md",
-    "git/gitlab/gitlab.md",
-    "tool/tool.md",
-    "docker/docker_compose/docker_compose.md",
-    "linux/shell/shell keybind/shell keybind.md",
+    "linux/user/Untitled.md",
     "linux/shell/shell.md",
-    "linux/iptables/iptables.md",
-    "linux/iptables",
-    "obsidian/obsidian.md",
-    "README.md",
-    "private/Untitled.md",
-    "private/丸子的名字/丸子的名字.md",
-    "加密/加密.md",
-    "tool/vim/vim.md",
+    "tool/tool.md",
     "tool/rime/rime.md",
-    "tool/rime/Tiger schema/Tiger schema.md",
+    "JavaScript/JavaScript.md",
+    "linux/shell/shell keybind/shell keybind.md",
+    "JavaScript",
+    "linux/ssh/ssh.md",
+    "git/github/github.md",
+    "git/gitlab/gitlab server.md",
+    "private/private.md",
+    "design/design.md",
+    "git/gitlab/gitlab runner.md",
+    "linux/iptables",
     "tool/rime/Tiger schema",
     "tool/idea/attachments/Pasted image 20240617105442.png",
     "tool/idea/attachments/Pasted image 20240617104901.png",
     "tool/idea/attachments",
     "tool/idea",
     "vim",
-    "mysql",
-    "linux/user",
-    "tool/Scoop",
-    "docker/常用命令",
-    "code/java/springboot/package",
     "private/丸子的名字/attachments/Pasted image 20230921165114.png",
     "private/丸子的名字/attachments/Pasted image 20230921165055.png",
     "private/丸子的名字/attachments/Pasted image 20230921165050.png",
