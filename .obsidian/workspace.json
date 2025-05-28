@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fac1dfcc4fbf38c4",
+        "id": "d684e09613cc7749",
         "type": "tabs",
         "children": [
           {
-            "id": "be0eeaba0041a4a2",
+            "id": "6d9cfb184f509f60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/java/effective_java/effective_java.md",
+                "file": "git/git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "effective_java"
+              "title": "git"
             }
           }
         ]
@@ -150,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/java/effective_java/effective_java.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "effective_java 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -198,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,46 +212,46 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "be0eeaba0041a4a2",
+  "active": "6d9cfb184f509f60",
   "lastOpenFiles": [
-    "README.md",
+    "linux/ssh/ssh.md",
+    "linux/shell/shell.md",
+    "git/git.md",
+    "git/github/github.md",
+    "linux/shell/zsh/omz/omz.md",
+    "linux/shell/zsh/zsh.md",
     "code/java/effective_java/2. Java构建器模式优化多参数构造/2. Java构建器模式优化多参数构造.md",
-    "code/java/effective_java/effective_java.md",
-    "code/java/effective_java/2. Java构建器模式优化多参数构造",
     "code/java/effective_java/1. 静态工厂方法/1. 静态工厂方法.md",
+    "code/java/effective_java/effective_java.md",
+    "code/code.md",
+    "git/gitlab/gitlab.md",
+    "linux/shell/shell keybind/shell keybind.md",
+    "linux/shell/fzf/fzf.md",
+    "README.md",
+    "交博会一明讲解词.md",
+    "未命名.md",
+    "linux/group/group.md",
+    "linux/user/user.md",
+    "linux/group",
+    "未命名",
+    "linux/文件查找/文件查找.md",
+    "linux/tmux/tmux.md",
+    "linux/文件查找",
+    "linux/tmux",
+    "linux/shell/alias",
+    "linux/shell/fzf",
+    "linux/shell/zsh/omz",
+    "linux/shell/zsh",
+    "linux/user/Untitled.md",
+    "linux/Bracketed-paste/Bracketed-paste.md",
+    "code/java/effective_java/2. Java构建器模式优化多参数构造",
     "code/java/effective_java/1. 静态工厂方法",
     "code/java/java.md",
-    "code/java/effective_java",
-    "未命名",
-    "code/code.md",
     "obsidian/obsidian.md",
-    "git/git.md",
     "docker/docker.md",
     "docker/常用命令/常用命令.md",
-    "docker/docker_compose/docker_compose.md",
-    "加密/加密.md",
-    "vim/vim.md",
-    "linux/user/user.md",
-    "linux/user/Untitled.md",
-    "linux/shell/shell.md",
-    "tool/tool.md",
-    "tool/rime/rime.md",
-    "JavaScript/JavaScript.md",
-    "linux/shell/shell keybind/shell keybind.md",
-    "JavaScript",
-    "linux/ssh/ssh.md",
-    "git/github/github.md",
-    "git/gitlab/gitlab server.md",
-    "private/private.md",
-    "design/design.md",
-    "git/gitlab/gitlab runner.md",
-    "linux/iptables",
-    "tool/rime/Tiger schema",
     "tool/idea/attachments/Pasted image 20240617105442.png",
     "tool/idea/attachments/Pasted image 20240617104901.png",
-    "tool/idea/attachments",
-    "tool/idea",
-    "vim",
     "private/丸子的名字/attachments/Pasted image 20230921165114.png",
     "private/丸子的名字/attachments/Pasted image 20230921165055.png",
     "private/丸子的名字/attachments/Pasted image 20230921165050.png",
